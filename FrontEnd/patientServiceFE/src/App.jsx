@@ -1,4 +1,5 @@
 import './App.css'
+import DoctorList from './doctor/DoctorList'
 import PatientList from './PatientList'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <h1>Patient List</h1>
       <PatientList/>
+      <DoctorList/>
     </>
   )
 }
